@@ -1,0 +1,26 @@
+{
+  "name": "ya_update_wp",
+  "version": "0.0.1",
+  "description": "yrsh update wp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg -t node10-linux-x64 --output dist/upd-script ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EtienneTr/ya_update_wp.git"
+  },
+  "author": "EtienneTr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EtienneTr/ya_update_wp/issues"
+  },
+  "homepage": "https://github.com/EtienneTr/ya_update_wp#readme",
+  "dependencies": {
+    "pkg": "4.3.5"
+  },
+  "bin": {
+    "ya_update_wp": "index.js"
+  }
+}
