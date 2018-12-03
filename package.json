@@ -4,8 +4,9 @@
   "description": "yrsh update wp",
   "main": "index.js",
   "scripts": {
+    "build": "pkg -t node10-linux-x64 --output dist/upd-script --options no-warnings .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pkg -t node10-linux-x64 --output dist/upd-script ."
+    "valid": "eslint *.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,10 @@
   },
   "bin": {
     "ya_update_wp": "index.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
