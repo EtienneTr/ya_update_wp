@@ -1,8 +1,3 @@
-const fsp = require('fs').promises;
+const update = require('./src/process');
 
-const testFs = async () => {
-    await fsp.appendFile('test.txt', 'OK !');
-    console.log('Done.');
-};
-
-testFs();
+update.process();

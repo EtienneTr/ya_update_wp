@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/EtienneTr/ya_update_wp#readme",
   "dependencies": {
+    "dedent-js": "1.0.1",
     "pkg": "4.3.5"
   },
   "bin": {
