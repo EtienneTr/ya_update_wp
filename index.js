@@ -1,3 +1,3 @@
-const update = require('./src/process');
+const update = require('./src/global-process');
 
 update.process();
